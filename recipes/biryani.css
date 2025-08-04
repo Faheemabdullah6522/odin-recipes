@@ -1,16 +1,68 @@
-*{
+* {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
 
-font-family: 'Courier New', Courier, monospace;
-background-color: darkgrey;
-font-weight: 400;
+  font-weight: 400;
 
+  margin: 0px;
+  padding: 0px;
 }
-.Heading{
+body {
+  background-color: rgb(245, 245, 250);
+  color: black;
+}
+.Heading {
+  background: linear-gradient(90deg, rgb(255, 168, 255), rgb(153, 204, 255));
+  color: rgb(40, 40, 60);
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+.Description {
+  display: inline-flex;
 
-padding: 20px;
-text-align: center;
+  align-items: center;
 
-
-
-
+  background: linear-gradient(135deg, rgb(255, 185, 255), rgb(186, 204, 231));
+  color: rgb(50, 50, 70);
+}
+.heading1 {
+  display: block;
+  background: linear-gradient(90deg, rgb(255, 168, 255), rgb(153, 204, 255));
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.heading2 {
+  display: block;
+  background: linear-gradient(90deg, rgb(255, 168, 255), rgb(153, 204, 255));
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+.Ingredients {
+  background: linear-gradient(135deg, rgb(255, 185, 255), rgb(186, 204, 231));
+  color: rgb(50, 50, 70);
+}
+.rice {
+  display: block;
+  background: linear-gradient(90deg, rgb(255, 168, 255), rgb(153, 204, 255));
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+.rice_des {
+  background: linear-gradient(135deg, rgb(255, 185, 255), rgb(186, 204, 231));
+  color: rgb(50, 50, 70);
+  font-size: 20px;
+}
+.Steps {
+  display: block;
+  background: linear-gradient(90deg, rgb(255, 168, 255), rgb(153, 204, 255));
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+.steps_des {
+  background: linear-gradient(135deg, rgb(255, 185, 255), rgb(186, 204, 231));
+  color: rgb(50, 50, 70);
+  font-size: 20px;
 }
